@@ -74,6 +74,10 @@ async def transcribe_audio(file_path: str) -> str:
     )
 
     result = response.choices[0].message.content
-    if not result:
-        raise RuntimeError("Transcription returned empty — audio may be too large or in an unsupported format. Try converting to mp3.")
+    print(f"Transcription result: '{result[:100] if result else None}'")
+    if not result or not result.strip():
+        raise RuntimeError(
+            f"Transcription returned empty. File size: {os.path.getsize(file_path)} bytes, "
+            f"format: {ext}. Try speaking for at least 5 seconds."
+        )
     return result

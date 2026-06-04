@@ -13,6 +13,7 @@ from pipeline.template import populate_mom_template
 
 from utils.email_sender import send_mom_email
 
+
 # ─── Page Config ──────────────────────────────────────────
 st.set_page_config(
     page_title="Meeting Agent · InnoVentures",
@@ -358,14 +359,32 @@ text_input = None
 
 with tab_audio:
     st.markdown("<div style='height:0.5rem'></div>", unsafe_allow_html=True)
+
+    # Recording via file — simplest reliable approach
+    recorded_file = st.audio_input("🎙️ Record your meeting")
+
+    if recorded_file:
+        st.markdown(
+            f"<div style='font-size:0.8rem;color:#22C55E;margin:4px 0 8px'>✓ Recording ready ({recorded_file.size/1024:.0f} KB)</div>",
+            unsafe_allow_html=True
+        )
+
+    st.markdown(
+        "<div style='text-align:center;font-size:12px;color:#8A9BB5;margin:8px 0'>— or upload an existing file —</div>",
+        unsafe_allow_html=True
+    )
+
     audio_file = st.file_uploader(
-        "Drag and drop or click to upload",
+        "Upload a meeting recording",
         type=["mp3", "wav", "m4a", "mp4", "ogg", "webm", "flac", "aac"],
-        label_visibility="visible",
+        label_visibility="collapsed",
     )
     if audio_file:
         st.audio(audio_file)
-        st.markdown(f"<div style='font-size:0.8rem;color:#8A9BB5;margin-top:0.5rem'>📎 {audio_file.name} · {audio_file.size/1024/1024:.1f} MB</div>", unsafe_allow_html=True)
+        st.markdown(
+            f"<div style='font-size:0.8rem;color:#8A9BB5;margin-top:0.5rem'>📎 {audio_file.name} · {audio_file.size/1024/1024:.1f} MB</div>",
+            unsafe_allow_html=True
+        )
 
 with tab_text:
     st.markdown("<div style='height:0.5rem'></div>", unsafe_allow_html=True)
@@ -378,7 +397,9 @@ with tab_text:
 
 # ─── Generate Button ──────────────────────────────────────
 st.markdown("<div style='height:0.75rem'></div>", unsafe_allow_html=True)
-can_process = audio_file is not None or (text_input and text_input.strip())
+# Check if we have recorded audio in session state
+recorded_path = None
+can_process = audio_file is not None or recorded_file is not None or (text_input and text_input.strip())
 
 if st.button(
     "Generate Minutes of Meeting →",
@@ -392,16 +413,24 @@ if st.button(
 
     try:
         if audio_file:
-            status.write("🎙️ Transcribing audio with Gemini Pro...")
+            status.write("🎙️ Transcribing uploaded audio with Gemini Pro...")
             progress.progress(10)
-
             suffix = os.path.splitext(audio_file.name)[1]
             with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
                 tmp.write(audio_file.getbuffer())
                 tmp_path = tmp.name
-
             transcript = asyncio.run(transcribe_audio(tmp_path))
             os.unlink(tmp_path)
+
+        elif recorded_file:
+            status.write("🎙️ Transcribing recording with Gemini Pro...")
+            progress.progress(10)
+            with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp:
+                tmp.write(recorded_file.getbuffer())
+                tmp_path = tmp.name
+            transcript = asyncio.run(transcribe_audio(tmp_path))
+            os.unlink(tmp_path)
+
         else:
             status.write("📝 Reading text input...")
             transcript = text_input
