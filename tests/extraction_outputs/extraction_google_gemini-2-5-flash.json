@@ -1,0 +1,68 @@
+{
+  "title": "Meeting Summary",
+  "date": "2026-05-20",
+  "attendees": [
+    "Sarah",
+    "Anas",
+    "Omar"
+  ],
+  "agenda": [
+    "New onboard flow",
+    "Meeting notes problem / AI solution",
+    "Q3 budget review"
+  ],
+  "discussion_points": [
+    "Sarah's team finished wireframes for the new onboard flow, but design feedback requires revisions, estimated to take 3-4 days.",
+    "Anas's team can start backend development for the onboard flow in parallel, estimating one week for API endpoints and database schema extension.",
+    "Omar proposed an AI meeting intelligence agent to automate meeting minute generation and push action items to Planner.",
+    "Omar needs access to Azure speech API and SharePoint templates to develop the AI proof of concept.",
+    "Q3 budget review is scheduled for next Monday, requiring department estimates by Friday."
+  ],
+  "decisions": [
+    "Proceed with revisions for the new onboard flow wireframes.",
+    "Start backend development for the new onboard flow in parallel with design revisions.",
+    "Prioritize the development of an AI meeting intelligence agent.",
+    "Provision Azure resources for Omar by tomorrow.",
+    "Grant Omar access to SharePoint templates library.",
+    "All department estimates for Q3 budget review must be submitted by Friday."
+  ],
+  "action_items": [
+    {
+      "task": "Revise wireframes for the new onboard flow and hand them off to developers",
+      "assignee": "Sarah",
+      "deadline": "2026-05-23",
+      "priority": "high"
+    },
+    {
+      "task": "Start setting up API endpoints and extend the database schema for the new onboard flow backend",
+      "assignee": "Anas",
+      "deadline": "2026-05-27",
+      "priority": "high"
+    },
+    {
+      "task": "Develop a proof of concept for the AI meeting intelligence agent",
+      "assignee": "Omar",
+      "deadline": "2026-06-03",
+      "priority": "high"
+    },
+    {
+      "task": "Provision Azure resources for Omar",
+      "assignee": "Speaker 1",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    },
+    {
+      "task": "Give Omar access to the SharePoint templates library",
+      "assignee": "Anas",
+      "deadline": "2026-05-20",
+      "priority": "high"
+    },
+    {
+      "task": "Submit department estimates for Q3 budget review",
+      "assignee": "All attendees",
+      "deadline": "2026-05-23",
+      "priority": "high"
+    }
+  ],
+  "follow_ups": []
+}

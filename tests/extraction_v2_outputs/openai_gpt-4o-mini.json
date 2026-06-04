@@ -1,0 +1,65 @@
+{
+  "title": "Project Update Meeting",
+  "date": "2026-05-20",
+  "attendees": [
+    "Sarah",
+    "Anas",
+    "Omar"
+  ],
+  "agenda": [
+    "New onboard flow",
+    "Meeting notes problem",
+    "Q3 budget review"
+  ],
+  "discussion_points": [
+    "The wireframe for the new onboard flow is complete but needs revisions based on design team feedback.",
+    "Revisions for the wireframe will take about three to four days.",
+    "Anas's team can start the back end setup in parallel, needing about a week.",
+    "Omar proposed an AI solution for automating meeting minutes.",
+    "Omar needs access to Azure speech API and SharePoint templates to create a proof of concept.",
+    "The Q3 budget review deadline for department estimates is set for Friday."
+  ],
+  "decisions": [
+    "Sarah will revise the wireframe and have it ready by Thursday.",
+    "Anas's team will start working on the back end.",
+    "Omar will create a proof of concept for the AI solution within two weeks.",
+    "Everyone must submit their department budget estimates by Friday."
+  ],
+  "action_items": [
+    {
+      "task": "Revise the wireframe and send it to developers",
+      "assignee": "Sarah",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    },
+    {
+      "task": "Start setting up the API endpoints for the back end",
+      "assignee": "Anas",
+      "deadline": "2026-05-27",
+      "priority": "medium"
+    },
+    {
+      "task": "Create a proof of concept for the AI meeting intelligence agent",
+      "assignee": "Omar",
+      "deadline": "2026-06-03",
+      "priority": "high"
+    },
+    {
+      "task": "Provide Omar access to the SharePoint templates library",
+      "assignee": "Anas",
+      "deadline": "2026-05-20",
+      "priority": "high"
+    },
+    {
+      "task": "Provision Azure resources for Omar",
+      "assignee": "Speaker 1",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    }
+  ],
+  "follow_ups": [
+    "Check on the status of the wireframe revisions by Thursday.",
+    "Monitor the progress of the back end setup by Anas's team.",
+    "Follow up with Omar on the proof of concept for the AI solution in two weeks."
+  ]
+}

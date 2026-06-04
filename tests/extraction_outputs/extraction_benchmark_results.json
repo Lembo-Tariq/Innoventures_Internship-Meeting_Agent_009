@@ -1,0 +1,534 @@
+[
+  {
+    "model": "google/gemini-2.5-flash",
+    "time": 4.839151382446289,
+    "cost": "$0.15/M input, $0.60/M output",
+    "status": "ok",
+    "scores": {
+      "attendees_found": 3,
+      "attendees_correct": [
+        "Sarah",
+        "Omar",
+        "Anas"
+      ],
+      "action_count": 6,
+      "decisions_count": 6,
+      "followups_count": 0,
+      "agenda_count": 3,
+      "discussion_count": 5,
+      "deadlines_as_dates": 6,
+      "deadlines_total": 6,
+      "has_speaker_labels": false
+    },
+    "attendees_raw": [
+      "Sarah",
+      "Anas",
+      "Omar"
+    ],
+    "action_items": [
+      {
+        "task": "Revise wireframes for the new onboard flow and hand them off to developers",
+        "assignee": "Sarah",
+        "deadline": "2026-05-23",
+        "priority": "high"
+      },
+      {
+        "task": "Start setting up API endpoints and extend the database schema for the new onboard flow backend",
+        "assignee": "Anas",
+        "deadline": "2026-05-27",
+        "priority": "high"
+      },
+      {
+        "task": "Develop a proof of concept for the AI meeting intelligence agent",
+        "assignee": "Omar",
+        "deadline": "2026-06-03",
+        "priority": "high"
+      },
+      {
+        "task": "Provision Azure resources for Omar",
+        "assignee": "Speaker 1",
+        "deadline": "2026-05-21",
+        "priority": "high"
+      },
+      {
+        "task": "Give Omar access to the SharePoint templates library",
+        "assignee": "Anas",
+        "deadline": "2026-05-20",
+        "priority": "high"
+      },
+      {
+        "task": "Submit department estimates for Q3 budget review",
+        "assignee": "All attendees",
+        "deadline": "2026-05-23",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "model": "google/gemini-2.5-pro",
+    "time": 19.647013425827026,
+    "cost": "$1.25/M input, $10/M output",
+    "status": "ok",
+    "scores": {
+      "attendees_found": 3,
+      "attendees_correct": [
+        "Sarah",
+        "Omar",
+        "Anas"
+      ],
+      "action_count": 6,
+      "decisions_count": 4,
+      "followups_count": 1,
+      "agenda_count": 3,
+      "discussion_count": 4,
+      "deadlines_as_dates": 6,
+      "deadlines_total": 6,
+      "has_speaker_labels": false
+    },
+    "attendees_raw": [
+      "Sarah",
+      "Anas",
+      "Omar"
+    ],
+    "action_items": [
+      {
+        "task": "Revise the onboard flow wireframes and get them to the developers.",
+        "assignee": "Sarah",
+        "deadline": "2026-05-21",
+        "priority": "high"
+      },
+      {
+        "task": "Start backend work for the new onboard flow by setting up API endpoints.",
+        "assignee": "Anas",
+        "deadline": "2026-05-27",
+        "priority": "medium"
+      },
+      {
+        "task": "Develop a proof of concept for the AI meeting intelligence agent.",
+        "assignee": "Omar",
+        "deadline": "2026-06-03",
+        "priority": "high"
+      },
+      {
+        "task": "Provision Azure resources (speech API) for the AI agent project.",
+        "assignee": "Meeting Lead",
+        "deadline": "2026-05-21",
+        "priority": "high"
+      },
+      {
+        "task": "Give Omar access to the SharePoint templates library.",
+        "assignee": "Anas",
+        "deadline": "2026-05-20",
+        "priority": "high"
+      },
+      {
+        "task": "Submit department budget estimates for Q3.",
+        "assignee": "Everyone",
+        "deadline": "2026-05-22",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "model": "deepseek/deepseek-chat",
+    "time": 31.46911311149597,
+    "cost": "$0.14/M input, $0.28/M output",
+    "status": "ok",
+    "scores": {
+      "attendees_found": 3,
+      "attendees_correct": [
+        "Sarah",
+        "Omar",
+        "Anas"
+      ],
+      "action_count": 6,
+      "decisions_count": 6,
+      "followups_count": 6,
+      "agenda_count": 3,
+      "discussion_count": 6,
+      "deadlines_as_dates": 6,
+      "deadlines_total": 6,
+      "has_speaker_labels": true
+    },
+    "attendees_raw": [
+      "Speaker 1",
+      "Sarah",
+      "Anas",
+      "Omar",
+      "Speaker 2",
+      "Speaker 3"
+    ],
+    "action_items": [
+      {
+        "task": "Revise wireframe for new onboard flow",
+        "assignee": "Sarah",
+        "deadline": "2026-05-21",
+        "priority": "high"
+      },
+      {
+        "task": "Start back end development",
+        "assignee": "Anas",
+        "deadline": "2026-05-27",
+        "priority": "medium"
+      },
+      {
+        "task": "Develop proof of concept for meeting intelligence agent",
+        "assignee": "Omar",
+        "deadline": "2026-06-03",
+        "priority": "high"
+      },
+      {
+        "task": "Provision Azure resources",
+        "assignee": "Speaker 1",
+        "deadline": "2026-05-21",
+        "priority": "high"
+      },
+      {
+        "task": "Provide access to SharePoint templates library",
+        "assignee": "Anas",
+        "deadline": "2026-05-20",
+        "priority": "medium"
+      },
+      {
+        "task": "Submit department estimates for Q3 budget review",
+        "assignee": "All attendees",
+        "deadline": "2026-05-22",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "model": "deepseek/deepseek-v4-flash",
+    "time": 22.378203868865967,
+    "cost": "$0.20/M input, $0.60/M output",
+    "status": "ok",
+    "scores": {
+      "attendees_found": 3,
+      "attendees_correct": [
+        "Sarah",
+        "Omar",
+        "Anas"
+      ],
+      "action_count": 6,
+      "decisions_count": 6,
+      "followups_count": 4,
+      "agenda_count": 3,
+      "discussion_count": 7,
+      "deadlines_as_dates": 6,
+      "deadlines_total": 6,
+      "has_speaker_labels": true
+    },
+    "attendees_raw": [
+      "Sarah",
+      "Anas",
+      "Omar",
+      "Speaker 2",
+      "Speaker 3",
+      "Speaker 1"
+    ],
+    "action_items": [
+      {
+        "task": "Revise wireframes for mobile layout and hand off to developers",
+        "assignee": "Sarah",
+        "deadline": "2026-05-21",
+        "priority": "high"
+      },
+      {
+        "task": "Start back-end API and database work for new onboard flow",
+        "assignee": "Anas",
+        "deadline": "2026-05-27",
+        "priority": "high"
+      },
+      {
+        "task": "Provision Azure resources for meeting intelligence agent",
+        "assignee": "Speaker 1",
+        "deadline": "2026-05-21",
+        "priority": "high"
+      },
+      {
+        "task": "Give Omar access to SharePoint templates library",
+        "assignee": "Anas",
+        "deadline": "2026-05-20",
+        "priority": "high"
+      },
+      {
+        "task": "Build proof of concept for meeting intelligence agent using Azure speech API and SharePoint templates",
+        "assignee": "Omar",
+        "deadline": "2026-06-03",
+        "priority": "high"
+      },
+      {
+        "task": "Submit department Q3 budget estimate",
+        "assignee": "All department heads",
+        "deadline": "2026-05-22",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "model": "openai/gpt-4o",
+    "time": 4.217984676361084,
+    "cost": "$2.50/M input, $10/M output",
+    "status": "ok",
+    "scores": {
+      "attendees_found": 3,
+      "attendees_correct": [
+        "Sarah",
+        "Omar",
+        "Anas"
+      ],
+      "action_count": 6,
+      "decisions_count": 4,
+      "followups_count": 1,
+      "agenda_count": 3,
+      "discussion_count": 4,
+      "deadlines_as_dates": 6,
+      "deadlines_total": 6,
+      "has_speaker_labels": true
+    },
+    "attendees_raw": [
+      "Sarah",
+      "Anas",
+      "Omar",
+      "Ammar",
+      "Speaker 1",
+      "Speaker 2",
+      "Speaker 3"
+    ],
+    "action_items": [
+      {
+        "task": "Revise wireframe and hand off to developers",
+        "assignee": "Sarah",
+        "deadline": "2026-05-21",
+        "priority": "medium"
+      },
+      {
+        "task": "Start setting up API endpoints for the back end",
+        "assignee": "Anas",
+        "deadline": "2026-05-27",
+        "priority": "medium"
+      },
+      {
+        "task": "Develop proof of concept for meeting intelligence agent",
+        "assignee": "Omar",
+        "deadline": "2026-06-03",
+        "priority": "high"
+      },
+      {
+        "task": "Provision Azure resources for Omar",
+        "assignee": "Speaker 1",
+        "deadline": "2026-05-21",
+        "priority": "high"
+      },
+      {
+        "task": "Provide Omar access to SharePoint templates",
+        "assignee": "Anas",
+        "deadline": "2026-05-20",
+        "priority": "high"
+      },
+      {
+        "task": "Submit department estimate for Q3 budget review",
+        "assignee": "All attendees",
+        "deadline": "2026-05-22",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "model": "openai/gpt-4o-mini",
+    "time": 5.71484637260437,
+    "cost": "$0.15/M input, $0.60/M output",
+    "status": "ok",
+    "scores": {
+      "attendees_found": 3,
+      "attendees_correct": [
+        "Sarah",
+        "Omar",
+        "Anas"
+      ],
+      "action_count": 6,
+      "decisions_count": 4,
+      "followups_count": 2,
+      "agenda_count": 3,
+      "discussion_count": 4,
+      "deadlines_as_dates": 6,
+      "deadlines_total": 6,
+      "has_speaker_labels": true
+    },
+    "attendees_raw": [
+      "Speaker 1",
+      "Sarah",
+      "Anas",
+      "Omar",
+      "Ammar",
+      "Speaker 2",
+      "Speaker 3"
+    ],
+    "action_items": [
+      {
+        "task": "Revise the wireframe and send to developers",
+        "assignee": "Sarah",
+        "deadline": "2026-05-21",
+        "priority": "high"
+      },
+      {
+        "task": "Start setting up API endpoints for the back end",
+        "assignee": "Anas",
+        "deadline": "2026-05-27",
+        "priority": "medium"
+      },
+      {
+        "task": "Create proof of concept for AI meeting intelligence agent",
+        "assignee": "Omar",
+        "deadline": "2026-06-03",
+        "priority": "high"
+      },
+      {
+        "task": "Provision Azure resources for Omar",
+        "assignee": "Speaker 1",
+        "deadline": "2026-05-21",
+        "priority": "high"
+      },
+      {
+        "task": "Provide access to SharePoint templates library",
+        "assignee": "Anas",
+        "deadline": "2026-05-20",
+        "priority": "medium"
+      },
+      {
+        "task": "Submit department budget estimate",
+        "assignee": "All attendees",
+        "deadline": "2026-05-22",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "model": "anthropic/claude-sonnet-4.6",
+    "time": 17.059128522872925,
+    "cost": "$3/M input, $15/M output",
+    "status": "ok",
+    "scores": {
+      "attendees_found": 3,
+      "attendees_correct": [
+        "Sarah",
+        "Omar",
+        "Anas"
+      ],
+      "action_count": 6,
+      "decisions_count": 6,
+      "followups_count": 5,
+      "agenda_count": 3,
+      "discussion_count": 5,
+      "deadlines_as_dates": 6,
+      "deadlines_total": 6,
+      "has_speaker_labels": true
+    },
+    "attendees_raw": [
+      "Speaker 1",
+      "Sarah",
+      "Anas",
+      "Omar"
+    ],
+    "action_items": [
+      {
+        "task": "Revise onboarding flow wireframes based on design team mobile layout feedback and hand off to developers",
+        "assignee": "Sarah",
+        "deadline": "2026-05-21",
+        "priority": "high"
+      },
+      {
+        "task": "Begin back-end API endpoint setup and database schema extension for the new onboarding flow",
+        "assignee": "Anas",
+        "deadline": "2026-05-27",
+        "priority": "high"
+      },
+      {
+        "task": "Build proof of concept for meeting intelligence agent (auto-generate structured minutes and push action items to Planner)",
+        "assignee": "Omar",
+        "deadline": "2026-06-03",
+        "priority": "high"
+      },
+      {
+        "task": "Provision Azure Speech API resources for Omar",
+        "assignee": "Speaker 1",
+        "deadline": "2026-05-21",
+        "priority": "high"
+      },
+      {
+        "task": "Grant Omar access to the SharePoint templates library",
+        "assignee": "Anas",
+        "deadline": "2026-05-20",
+        "priority": "high"
+      },
+      {
+        "task": "Submit department budget estimate for Q3 budget review",
+        "assignee": "All department heads",
+        "deadline": "2026-05-22",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "model": "qwen/qwen3-30b-a3b",
+    "time": 11.092016458511353,
+    "cost": "$0.20/M input, $0.60/M output",
+    "status": "ok",
+    "scores": {
+      "attendees_found": 3,
+      "attendees_correct": [
+        "Sarah",
+        "Omar",
+        "Anas"
+      ],
+      "action_count": 5,
+      "decisions_count": 4,
+      "followups_count": 2,
+      "agenda_count": 3,
+      "discussion_count": 5,
+      "deadlines_as_dates": 4,
+      "deadlines_total": 4,
+      "has_speaker_labels": true
+    },
+    "attendees_raw": [
+      "Speaker 1",
+      "Sarah",
+      "Anas",
+      "Omar",
+      "Speaker 2",
+      "Speaker 3"
+    ],
+    "action_items": [
+      {
+        "task": "Revise wireframes for new onboard flow",
+        "assignee": "Sarah",
+        "deadline": "2026-05-24",
+        "priority": "high"
+      },
+      {
+        "task": "Start backend API endpoint development",
+        "assignee": "Anas",
+        "deadline": null,
+        "priority": "medium"
+      },
+      {
+        "task": "Develop proof of concept for AI meeting intelligence agent",
+        "assignee": "Omar",
+        "deadline": "2026-06-03",
+        "priority": "high"
+      },
+      {
+        "task": "Provision Azure resources for AI project",
+        "assignee": "Speaker 1",
+        "deadline": "2026-05-21",
+        "priority": "high"
+      },
+      {
+        "task": "Provide SharePoint template access to Omar",
+        "assignee": "Anas",
+        "deadline": "2026-05-20",
+        "priority": "medium"
+      }
+    ]
+  }
+]

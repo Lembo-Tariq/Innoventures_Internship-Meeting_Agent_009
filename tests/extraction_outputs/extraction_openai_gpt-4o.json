@@ -1,0 +1,71 @@
+{
+  "title": "Project Update and Process Improvement Meeting",
+  "date": "2026-05-20",
+  "attendees": [
+    "Sarah",
+    "Anas",
+    "Omar",
+    "Ammar",
+    "Speaker 1",
+    "Speaker 2",
+    "Speaker 3"
+  ],
+  "agenda": [
+    "New onboard flow",
+    "Meeting notes problem",
+    "Q3 budget review"
+  ],
+  "discussion_points": [
+    "Sarah reported feedback on the mobile layout of the new onboard flow wireframe.",
+    "Anas's team will start setting up API endpoints for the back end.",
+    "Omar proposed an AI solution for automating meeting minutes.",
+    "Q3 budget review scheduled for next Monday."
+  ],
+  "decisions": [
+    "Sarah to revise the wireframe and hand it off to developers by Thursday.",
+    "Omar to develop a proof of concept for the meeting intelligence agent in two weeks.",
+    "Anas to provide Omar access to SharePoint templates.",
+    "Department estimates for Q3 budget review due by Friday."
+  ],
+  "action_items": [
+    {
+      "task": "Revise wireframe and hand off to developers",
+      "assignee": "Sarah",
+      "deadline": "2026-05-21",
+      "priority": "medium"
+    },
+    {
+      "task": "Start setting up API endpoints for the back end",
+      "assignee": "Anas",
+      "deadline": "2026-05-27",
+      "priority": "medium"
+    },
+    {
+      "task": "Develop proof of concept for meeting intelligence agent",
+      "assignee": "Omar",
+      "deadline": "2026-06-03",
+      "priority": "high"
+    },
+    {
+      "task": "Provision Azure resources for Omar",
+      "assignee": "Speaker 1",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    },
+    {
+      "task": "Provide Omar access to SharePoint templates",
+      "assignee": "Anas",
+      "deadline": "2026-05-20",
+      "priority": "high"
+    },
+    {
+      "task": "Submit department estimate for Q3 budget review",
+      "assignee": "All attendees",
+      "deadline": "2026-05-22",
+      "priority": "high"
+    }
+  ],
+  "follow_ups": [
+    "Ensure Azure resources are provisioned for Omar."
+  ]
+}

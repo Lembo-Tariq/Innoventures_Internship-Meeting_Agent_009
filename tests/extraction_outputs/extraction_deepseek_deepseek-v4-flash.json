@@ -1,0 +1,78 @@
+{
+  "title": "Project Status and AI Meeting Solution",
+  "date": "2026-05-20",
+  "attendees": [
+    "Sarah",
+    "Anas",
+    "Omar",
+    "Speaker 2",
+    "Speaker 3",
+    "Speaker 1"
+  ],
+  "agenda": [
+    "New onboard flow status",
+    "Meeting notes problem and AI solution",
+    "Q3 budget review deadlines"
+  ],
+  "discussion_points": [
+    "Sarah's team finished wireframes for new onboard flow, but design feedback requires revisions for mobile layout.",
+    "Revised wireframes expected to take 3-4 days, ready by Thursday for developer handoff.",
+    "Anas's team can start back-end work in parallel, setting up API endpoints and extending database schema; estimated one week.",
+    "Omar proposed building a meeting intelligence agent to auto-generate structured minutes and push action items to planner.",
+    "Omar requested access to Azure speech API and SharePoint templates for proof of concept in two weeks.",
+    "Speaker 1 will provision Azure resources by tomorrow; Anas will give Omar access to SharePoint templates today.",
+    "Q3 budget review scheduled for next Monday (2026-05-25), with department estimates due by Friday (2026-05-22)."
+  ],
+  "decisions": [
+    "Sarah will own wireframe revisions and hand off to developers by Thursday.",
+    "Anas's team will start back-end development in parallel with wireframe revisions.",
+    "Omar will build a proof of concept for the meeting intelligence agent with a two-week deadline.",
+    "All departments must submit Q3 budget estimates by Friday.",
+    "Speaker 1 will provision Azure resources by tomorrow.",
+    "Anas will give Omar access to SharePoint templates today."
+  ],
+  "action_items": [
+    {
+      "task": "Revise wireframes for mobile layout and hand off to developers",
+      "assignee": "Sarah",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    },
+    {
+      "task": "Start back-end API and database work for new onboard flow",
+      "assignee": "Anas",
+      "deadline": "2026-05-27",
+      "priority": "high"
+    },
+    {
+      "task": "Provision Azure resources for meeting intelligence agent",
+      "assignee": "Speaker 1",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    },
+    {
+      "task": "Give Omar access to SharePoint templates library",
+      "assignee": "Anas",
+      "deadline": "2026-05-20",
+      "priority": "high"
+    },
+    {
+      "task": "Build proof of concept for meeting intelligence agent using Azure speech API and SharePoint templates",
+      "assignee": "Omar",
+      "deadline": "2026-06-03",
+      "priority": "high"
+    },
+    {
+      "task": "Submit department Q3 budget estimate",
+      "assignee": "All department heads",
+      "deadline": "2026-05-22",
+      "priority": "high"
+    }
+  ],
+  "follow_ups": [
+    "Monitor progress of wireframe revisions and back-end development for new onboard flow.",
+    "Check on Azure resource provisioning status.",
+    "Schedule review of meeting intelligence prototype after two weeks.",
+    "Confirm all budget submissions by Friday deadline."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "title": "Project Update Meeting",
+  "date": "2026-05-20",
+  "attendees": [
+    "Speaker 1",
+    "Sarah",
+    "Anas",
+    "Omar",
+    "Ammar",
+    "Speaker 2",
+    "Speaker 3"
+  ],
+  "agenda": [
+    "New onboard flow",
+    "Meeting notes problem",
+    "Q3 budget review"
+  ],
+  "discussion_points": [
+    "The wireframe for the new onboard flow is complete but needs revisions based on design team feedback.",
+    "The back end can start in parallel with the front end revisions.",
+    "An AI solution for automating meeting notes was proposed and is to be prioritized.",
+    "The Q3 budget review deadline was discussed."
+  ],
+  "decisions": [
+    "Sarah will revise the wireframe and have it ready by Thursday.",
+    "Anas's team will start setting up the API endpoints for the back end.",
+    "Omar will create a proof of concept for the AI meeting intelligence agent in two weeks.",
+    "Everyone must submit their department budget estimates by Friday."
+  ],
+  "action_items": [
+    {
+      "task": "Revise the wireframe and send to developers",
+      "assignee": "Sarah",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    },
+    {
+      "task": "Start setting up API endpoints for the back end",
+      "assignee": "Anas",
+      "deadline": "2026-05-27",
+      "priority": "medium"
+    },
+    {
+      "task": "Create proof of concept for AI meeting intelligence agent",
+      "assignee": "Omar",
+      "deadline": "2026-06-03",
+      "priority": "high"
+    },
+    {
+      "task": "Provision Azure resources for Omar",
+      "assignee": "Speaker 1",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    },
+    {
+      "task": "Provide access to SharePoint templates library",
+      "assignee": "Anas",
+      "deadline": "2026-05-20",
+      "priority": "medium"
+    },
+    {
+      "task": "Submit department budget estimate",
+      "assignee": "All attendees",
+      "deadline": "2026-05-22",
+      "priority": "high"
+    }
+  ],
+  "follow_ups": [
+    "Check on the progress of the wireframe revisions.",
+    "Ensure Omar has access to the Azure speech API."
+  ]
+}

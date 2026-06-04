@@ -1,0 +1,36 @@
+Meeting: Q3 Planning Sync
+Date: May 18, 2026
+
+Attendees: Enan Sabah, Anas, Sarah from Marketing, Omar (IT)
+
+Enan: Okay let's get started. First thing on the agenda is the new onboarding flow. Sarah, where are we on that?
+
+Sarah: So we finished the wireframes last week. The design team reviewed them and had some feedback about the mobile layout. I think we need another round of revisions before we hand it off to dev.
+
+Enan: How long would that take?
+
+Sarah: Probably three to four days. We can have the revised wireframes ready by Thursday.
+
+Enan: Okay let's do that. Sarah, own the revisions and get them to dev by Thursday. Anas, can your team start the backend work in parallel?
+
+Anas: Yeah we can start setting up the API endpoints. We already have the database schema from the old flow, we just need to extend it. I'd say we need about a week for the backend.
+
+Enan: Perfect. Second topic — the meeting notes problem. We're spending way too long writing up minutes after every meeting. Omar, you mentioned an AI solution?
+
+Omar: Right, so I've been looking into building a meeting intelligence agent. It would take recordings or notes and automatically generate structured minutes using our company template. It could also push action items to Planner.
+
+Enan: I love that. Let's make it a priority. Omar, can you have a proof of concept ready in two weeks?
+
+Omar: Two weeks is tight but doable if I can get access to the Azure Speech API and the SharePoint templates.
+
+Enan: Done. I'll get IT to provision the Azure resources by tomorrow. Anas, give Omar access to the SharePoint template library.
+
+Anas: Will do, I'll send him the link today.
+
+Enan: Last thing — the Q3 budget review is next Monday. Everyone needs to submit their department estimates by Friday. No exceptions.
+
+Sarah: Got it.
+
+Omar: Sure.
+
+Enan: Great meeting everyone. Let's wrap up.

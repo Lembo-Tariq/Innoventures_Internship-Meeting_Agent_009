@@ -1,0 +1,70 @@
+{
+  "title": "Project Update and Meeting Efficiency Solutions",
+  "date": "2026-05-20",
+  "attendees": [
+    "Sarah",
+    "Anas",
+    "Omar"
+  ],
+  "agenda": [
+    "New onboard flow",
+    "Meeting notes problem",
+    "Q3 budget review"
+  ],
+  "discussion_points": [
+    "Sarah reported feedback on the mobile layout of the new onboard flow wireframe.",
+    "Anas's team will start setting up API endpoints for the back end.",
+    "Omar proposed an AI solution for generating meeting minutes.",
+    "Q3 budget review scheduled for next Monday."
+  ],
+  "decisions": [
+    "Sarah to revise the wireframe and hand it off to developers by Thursday.",
+    "Anas's team to start back end development in parallel.",
+    "Omar to develop a proof of concept for the meeting intelligence agent in two weeks.",
+    "All departments to submit Q3 budget estimates by Friday."
+  ],
+  "action_items": [
+    {
+      "task": "Revise wireframe and hand off to developers",
+      "assignee": "Sarah",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    },
+    {
+      "task": "Start setting up API endpoints for the back end",
+      "assignee": "Anas",
+      "deadline": "2026-05-27",
+      "priority": "medium"
+    },
+    {
+      "task": "Develop a proof of concept for the meeting intelligence agent",
+      "assignee": "Omar",
+      "deadline": "2026-06-03",
+      "priority": "high"
+    },
+    {
+      "task": "Provision Azure resources for Omar",
+      "assignee": "Speaker 1",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    },
+    {
+      "task": "Give Omar access to the SharePoint templates library",
+      "assignee": "Anas",
+      "deadline": "2026-05-20",
+      "priority": "high"
+    },
+    {
+      "task": "Submit department estimate for Q3 budget",
+      "assignee": "All departments",
+      "deadline": "2026-05-22",
+      "priority": "high"
+    }
+  ],
+  "follow_ups": [
+    "Check if Sarah's revised wireframe is handed off to developers by Thursday.",
+    "Monitor progress of Anas's team on back end development.",
+    "Ensure Omar has access to Azure resources and SharePoint templates.",
+    "Verify all departments submit Q3 budget estimates by Friday."
+  ]
+}

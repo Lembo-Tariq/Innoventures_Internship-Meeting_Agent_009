@@ -1,0 +1,31 @@
+Speaker 1: Okay, let's get started. First thing on the agenda is the new onboard flow. Sarah, where are we on that?
+
+Sarah: So, we finished the wireframe last week. The design team reviewed them and had some feedback about the whole mobile layout. I think we need another round of revision before we hand it off to the developers.
+
+Speaker 1: How long would that be?
+
+Sarah: Probably three to four days. We can have the revised wireframe ready by Thursday.
+
+Speaker 1: Okay, let's do that. Sarah, own the revisions and get them by to devs by Thursday. Anas, can your team start the back end in parallel?
+
+Anas: Yeah, we can start setting up the API endpoints. We already have the database schema from the old flow. We just need to extend it. I'd say we need about a week for the back end.
+
+Speaker 1: Perfect. Second topic, the meeting notes problem. We're spending way too long writing up minutes after every meeting. Ammar, you mentioned an AI solution?
+
+Omar: Omar. Right. So I've been looking into building a meeting intelligence agent. It would take recordings or notes and automatically generate structured minutes using our company template. It could also push action items to planner.
+
+Speaker 1: I love that. Let's make it a priority. Omar, can you have a proof of concept ready in two weeks?
+
+Omar: Two weeks is tight but doable if I can get access to the Azure speech API and the SharePoint templates.
+
+Speaker 1: Done. I'll get it I'll get it to provision the Azure resources by tomorrow. Anas, give Omar access to the SharePoint templates library.
+
+Anas: Will do. I'll send him the link today.
+
+Speaker 1: Last thing, the Q3 budget review is next Monday. Everyone needs to submit their department estimate by Friday. No exceptions.
+
+Speaker 2: Got it.
+
+Speaker 3: Sure thing.
+
+Speaker 1: Great meeting, everyone. Let's wrap it up.

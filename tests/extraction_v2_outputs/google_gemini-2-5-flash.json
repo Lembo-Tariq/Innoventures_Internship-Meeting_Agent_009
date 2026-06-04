@@ -1,0 +1,72 @@
+{
+  "title": "Weekly Sync Meeting",
+  "date": "2026-05-20",
+  "attendees": [
+    "Meeting Lead",
+    "Sarah",
+    "Anas",
+    "Omar"
+  ],
+  "agenda": [
+    "New Onboarding Flow",
+    "Meeting Notes Automation",
+    "Q3 Budget Review"
+  ],
+  "discussion_points": [
+    "Sarah's team completed wireframes for the new onboarding flow but needs to revise mobile layout based on design team feedback.",
+    "Anas's team can start backend development for the new onboarding flow in parallel with wireframe revisions.",
+    "Omar proposed an AI solution for automating meeting minutes and integrating with Planner.",
+    "The Q3 budget review is scheduled for next Monday, requiring department estimates by Friday."
+  ],
+  "decisions": [
+    "Revised wireframes for the new onboarding flow will be completed by Thursday.",
+    "Backend development for the new onboarding flow will commence in parallel.",
+    "An AI meeting intelligence agent proof of concept will be developed.",
+    "Azure speech API access and SharePoint templates will be provided to Omar.",
+    "All department Q3 budget estimates must be submitted by Friday."
+  ],
+  "action_items": [
+    {
+      "task": "Revise wireframes for the new onboarding flow based on design feedback and hand them off to developers.",
+      "assignee": "Sarah",
+      "deadline": "2026-05-22",
+      "priority": "high"
+    },
+    {
+      "task": "Start setting up API endpoints and extend the database schema for the new onboarding flow backend.",
+      "assignee": "Anas",
+      "deadline": "2026-05-29",
+      "priority": "high"
+    },
+    {
+      "task": "Develop a proof of concept for the AI meeting intelligence agent.",
+      "assignee": "Omar",
+      "deadline": "2026-06-03",
+      "priority": "high"
+    },
+    {
+      "task": "Provision Azure resources, including Azure speech API access, for Omar.",
+      "assignee": "Meeting Lead",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    },
+    {
+      "task": "Provide Omar with access to the SharePoint templates library.",
+      "assignee": "Anas",
+      "deadline": "2026-05-20",
+      "priority": "high"
+    },
+    {
+      "task": "Submit department Q3 budget estimates.",
+      "assignee": "All Attendees",
+      "deadline": "2026-05-23",
+      "priority": "high"
+    }
+  ],
+  "follow_ups": [
+    "Monitor progress of the new onboarding flow wireframe revisions and backend development.",
+    "Track the development of Omar's AI meeting intelligence agent proof of concept.",
+    "Ensure all necessary access and resources are provided to Omar for the AI project.",
+    "Confirm timely submission of all Q3 budget estimates."
+  ]
+}

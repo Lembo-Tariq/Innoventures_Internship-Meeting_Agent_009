@@ -1,0 +1,77 @@
+{
+  "title": "Product & Operations Sync \u2014 Onboarding Flow, Meeting Notes Automation, Q3 Budget Review",
+  "date": "2026-05-20",
+  "attendees": [
+    "Meeting Lead",
+    "Sarah",
+    "Anas",
+    "Omar"
+  ],
+  "agenda": [
+    "New onboarding flow progress and next steps",
+    "Meeting notes automation \u2014 AI solution proposal",
+    "Q3 budget review preparation"
+  ],
+  "discussion_points": [
+    "Sarah's team completed wireframes for the new onboarding flow last week; design team reviewed them and flagged mobile layout issues requiring another revision round.",
+    "Revised wireframes are estimated to take 3\u20134 days, targeting Thursday delivery to developers.",
+    "Anas's team can begin back-end API endpoint setup in parallel using the existing database schema from the old flow, estimating approximately one week for back-end work.",
+    "Omar proposed building a meeting intelligence agent that auto-generates structured meeting minutes from recordings or notes using the company template, and pushes action items to Microsoft Planner.",
+    "Omar needs access to Azure Speech API and SharePoint templates to build the proof of concept; both blockers were addressed in the meeting.",
+    "Q3 budget review is scheduled for next Monday; all department heads must submit budget estimates by Friday."
+  ],
+  "decisions": [
+    "Sarah will own the wireframe revisions and deliver them to developers by Thursday.",
+    "Anas's team will begin back-end API endpoint development in parallel with the wireframe revision.",
+    "Omar's meeting intelligence agent proof of concept is designated a priority initiative.",
+    "Omar has two weeks to deliver a proof of concept for the meeting intelligence agent.",
+    "Meeting Lead will provision Azure resources (Speech API) by tomorrow.",
+    "Anas will grant Omar access to the SharePoint templates library today.",
+    "All department heads must submit Q3 budget estimates by Friday \u2014 no exceptions."
+  ],
+  "action_items": [
+    {
+      "task": "Complete revised onboarding flow wireframes addressing mobile layout feedback and hand off to development team",
+      "assignee": "Sarah",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    },
+    {
+      "task": "Begin back-end API endpoint setup for the new onboarding flow, extending existing database schema",
+      "assignee": "Anas",
+      "deadline": "2026-05-28",
+      "priority": "high"
+    },
+    {
+      "task": "Build and deliver a proof of concept for the meeting intelligence agent (auto-generates structured minutes and pushes action items to Planner)",
+      "assignee": "Omar",
+      "deadline": "2026-06-03",
+      "priority": "high"
+    },
+    {
+      "task": "Provision Azure Speech API resources and grant Omar access",
+      "assignee": "Meeting Lead",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    },
+    {
+      "task": "Send Omar the link to the SharePoint templates library",
+      "assignee": "Anas",
+      "deadline": "2026-05-20",
+      "priority": "medium"
+    },
+    {
+      "task": "Submit department Q3 budget estimate ahead of Monday's budget review",
+      "assignee": "All department heads",
+      "deadline": "2026-05-22",
+      "priority": "high"
+    }
+  ],
+  "follow_ups": [
+    "Confirm that Sarah's revised wireframes were successfully handed off to the development team by Thursday and that developers have no blocking questions.",
+    "Check in with Omar mid-week to ensure Azure Speech API access and SharePoint template access are both confirmed and unblocking POC development.",
+    "Monitor Anas's back-end API progress to ensure the one-week estimate stays on track and aligns with the wireframe handoff timeline.",
+    "Verify all departments submitted their Q3 budget estimates by Friday ahead of Monday's review meeting.",
+    "Evaluate Omar's meeting intelligence agent POC after the two-week window and decide on next steps for full implementation and rollout."
+  ]
+}

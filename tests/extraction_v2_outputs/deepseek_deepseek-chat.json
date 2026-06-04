@@ -1,0 +1,73 @@
+{
+  "title": "Project Updates and Meeting Efficiency",
+  "date": "2026-05-20",
+  "attendees": [
+    "Sarah",
+    "Anas",
+    "Omar",
+    "Ammar"
+  ],
+  "agenda": [
+    "New onboard flow",
+    "Meeting notes problem",
+    "Q3 budget review"
+  ],
+  "discussion_points": [
+    "Sarah reported that the wireframe for the new onboard flow is complete but needs revisions based on feedback from the design team.",
+    "Anas confirmed that the back end team can start setting up API endpoints in parallel with the wireframe revisions.",
+    "Omar proposed an AI solution to automate meeting minutes and action item tracking.",
+    "The Q3 budget review is scheduled for next Monday, with department estimates due by Friday."
+  ],
+  "decisions": [
+    "Sarah will revise the wireframe and deliver it to the developers by Thursday.",
+    "Anas's team will start setting up the back end API endpoints.",
+    "Omar will develop a proof of concept for the meeting intelligence agent within two weeks.",
+    "Azure resources will be provisioned for Omar by tomorrow.",
+    "Anas will grant Omar access to the SharePoint templates library.",
+    "All departments must submit their Q3 budget estimates by Friday."
+  ],
+  "action_items": [
+    {
+      "task": "Revise the wireframe for the new onboard flow",
+      "assignee": "Sarah",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    },
+    {
+      "task": "Start setting up API endpoints for the back end",
+      "assignee": "Anas",
+      "deadline": "2026-05-27",
+      "priority": "medium"
+    },
+    {
+      "task": "Develop a proof of concept for the meeting intelligence agent",
+      "assignee": "Omar",
+      "deadline": "2026-06-03",
+      "priority": "high"
+    },
+    {
+      "task": "Provision Azure resources for Omar",
+      "assignee": "Speaker 1",
+      "deadline": "2026-05-21",
+      "priority": "high"
+    },
+    {
+      "task": "Grant Omar access to the SharePoint templates library",
+      "assignee": "Anas",
+      "deadline": "2026-05-20",
+      "priority": "high"
+    },
+    {
+      "task": "Submit Q3 budget estimates",
+      "assignee": "All departments",
+      "deadline": "2026-05-22",
+      "priority": "high"
+    }
+  ],
+  "follow_ups": [
+    "Monitor the progress of the wireframe revisions to ensure they are completed by Thursday.",
+    "Check the status of the back end API setup to ensure it aligns with the wireframe delivery.",
+    "Follow up with Omar to ensure he has all necessary resources for the meeting intelligence agent proof of concept.",
+    "Verify that all departments have submitted their Q3 budget estimates by Friday."
+  ]
+}
