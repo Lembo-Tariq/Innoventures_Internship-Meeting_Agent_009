@@ -542,7 +542,7 @@ if "results" in st.session_state:
                 f"Best regards,\n"
                 f"InnoVentures"
             ),
-            height=120,
+            height=200,
         )
 
         if st.button("📤 Send Email", disabled=not recipients):
