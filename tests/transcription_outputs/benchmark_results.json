@@ -8,8 +8,8 @@
     "speakers": true,
     "cost": "$0.006/min",
     "notes": "Classic Whisper, most popular",
-    "file": "c:\\Users\\GIGABYITE\\meeting-agent009_Innoventures\\tests\\transcription_outputs\\transcript_openai_whisper-1.txt",
-    "status": "\u2713"
+    "file": "tests/transcription_outputs/transcript_openai_whisper-1.txt",
+    "status": "✓"
   },
   {
     "model": "openai/whisper-large-v3",
@@ -20,8 +20,8 @@
     "speakers": true,
     "cost": "$0.006/min",
     "notes": "Larger Whisper, better accuracy",
-    "file": "c:\\Users\\GIGABYITE\\meeting-agent009_Innoventures\\tests\\transcription_outputs\\transcript_openai_whisper-large-v3.txt",
-    "status": "\u2713"
+    "file": "tests/transcription_outputs/transcript_openai_whisper-large-v3.txt",
+    "status": "✓"
   },
   {
     "model": "openai/whisper-large-v3-turbo",
@@ -32,8 +32,8 @@
     "speakers": true,
     "cost": "$0.006/min",
     "notes": "Fastest Whisper variant",
-    "file": "c:\\Users\\GIGABYITE\\meeting-agent009_Innoventures\\tests\\transcription_outputs\\transcript_openai_whisper-large-v3-turbo.txt",
-    "status": "\u2713"
+    "file": "tests/transcription_outputs/transcript_openai_whisper-large-v3-turbo.txt",
+    "status": "✓"
   },
   {
     "model": "openai/gpt-4o-transcribe",
@@ -44,8 +44,8 @@
     "speakers": true,
     "cost": "$2.50/M input tokens",
     "notes": "GPT-4o based, high quality",
-    "file": "c:\\Users\\GIGABYITE\\meeting-agent009_Innoventures\\tests\\transcription_outputs\\transcript_openai_gpt-4o-transcribe.txt",
-    "status": "\u2713"
+    "file": "tests/transcription_outputs/transcript_openai_gpt-4o-transcribe.txt",
+    "status": "✓"
   },
   {
     "model": "openai/gpt-4o-mini-transcribe",
@@ -56,8 +56,8 @@
     "speakers": true,
     "cost": "$1.25/M input tokens",
     "notes": "Cheaper GPT-4o transcription",
-    "file": "c:\\Users\\GIGABYITE\\meeting-agent009_Innoventures\\tests\\transcription_outputs\\transcript_openai_gpt-4o-mini-transcribe.txt",
-    "status": "\u2713"
+    "file": "tests/transcription_outputs/transcript_openai_gpt-4o-mini-transcribe.txt",
+    "status": "✓"
   },
   {
     "model": "google/chirp-3",
@@ -68,8 +68,8 @@
     "speakers": false,
     "cost": "~$0.016/min",
     "notes": "Google's latest ASR model",
-    "file": "c:\\Users\\GIGABYITE\\meeting-agent009_Innoventures\\tests\\transcription_outputs\\transcript_google_chirp-3.txt",
-    "status": "\u2713"
+    "file": "tests/transcription_outputs/transcript_google_chirp-3.txt",
+    "status": "✓"
   },
   {
     "model": "google/gemini-2.5-flash",
@@ -80,8 +80,8 @@
     "speakers": true,
     "cost": "$0.15/M input tokens",
     "notes": "Can label speakers, very fast",
-    "file": "c:\\Users\\GIGABYITE\\meeting-agent009_Innoventures\\tests\\transcription_outputs\\transcript_google_gemini-2-5-flash.txt",
-    "status": "\u2713"
+    "file": "tests/transcription_outputs/transcript_google_gemini-2-5-flash.txt",
+    "status": "✓"
   },
   {
     "model": "google/gemini-2.5-pro",
@@ -92,21 +92,21 @@
     "speakers": true,
     "cost": "$1.25/M input tokens",
     "notes": "Higher quality, slower",
-    "file": "c:\\Users\\GIGABYITE\\meeting-agent009_Innoventures\\tests\\transcription_outputs\\transcript_google_gemini-2-5-pro.txt",
-    "status": "\u2713"
+    "file": "tests/transcription_outputs/transcript_google_gemini-2-5-pro.txt",
+    "status": "✓"
   },
   {
     "model": "openai/gpt-4o",
     "type": "multimodal",
     "time": 0.13004827499389648,
-    "status": "\u2717 Error code: 404 - {'error': {'message': 'No endpoints found that support input a",
+    "status": "✗ Error code: 404 - {'error': {'message': 'No endpoints found that support input a",
     "cost": "$2.50/M input tokens"
   },
   {
     "model": "openai/gpt-4o-mini",
     "type": "multimodal",
     "time": 0.14605402946472168,
-    "status": "\u2717 Error code: 404 - {'error': {'message': 'No endpoints found that support input a",
+    "status": "✗ Error code: 404 - {'error': {'message': 'No endpoints found that support input a",
     "cost": "$0.15/M input tokens"
   }
 ]

@@ -93,12 +93,12 @@ def _rebuild_action_table(doc, data: MeetingData):
         table._element.getparent().remove(table._element)
 
         # Build the real table
-        new_table = doc.add_table(rows=1, cols=2)
+        new_table = doc.add_table(rows=1, cols=3)
         new_table.alignment = WD_TABLE_ALIGNMENT.CENTER
         _apply_table_borders(new_table)
 
         # Header row
-        for i, label in enumerate(["Task", "Assignee"]):
+        for i, label in enumerate(["Task", "Assignee", "Due"]):
             cell = new_table.rows[0].cells[i]
             cell.text = ""
             run = cell.paragraphs[0].add_run(label)
@@ -109,20 +109,24 @@ def _rebuild_action_table(doc, data: MeetingData):
             _shade_cell(cell, "0A1628")
             cell.paragraphs[0].paragraph_format.keep_with_next = True
 
-        new_table.rows[0].cells[0].width = Inches(4.5)
-        new_table.rows[0].cells[1].width = Inches(2.0)
+        widths = [Inches(3.9), Inches(1.8), Inches(0.9)]
 
         # Data rows
         for item in data.action_items:
             row = new_table.add_row()
             row.cells[0].text = item.task
             row.cells[1].text = item.assignee
+            row.cells[2].text = item.deadline or "TBD"
             for cell in row.cells:
                 for para in cell.paragraphs:
                     para.paragraph_format.keep_together = True
                     for run in para.runs:
                         run.font.size = Pt(10)
                         run.font.name = "Calibri"
+
+        for row in new_table.rows:
+            for cell, width in zip(row.cells, widths):
+                cell.width = width
 
         # Insert table after "Action Items" heading
         for para in doc.paragraphs:

@@ -1,5 +1,6 @@
 # app.py — InnoVentures Meeting Intelligence Agent
 import streamlit as st
+from html import escape
 import asyncio
 import os
 import time
@@ -505,35 +506,35 @@ if "results" in st.session_state:
 
     # Attendees
     st.markdown('<div class="section-heading">Attendees</div>', unsafe_allow_html=True)
-    attendee_html = "".join(f'<div class="inv-item">👤 {a}</div>' for a in d.attendees)
+    attendee_html = "".join(f'<div class="inv-item">👤 {escape(a)}</div>' for a in d.attendees)
     st.markdown(f'<div class="inv-card">{attendee_html}</div>', unsafe_allow_html=True)
 
     # Agenda
     st.markdown('<div class="section-heading">Agenda</div>', unsafe_allow_html=True)
-    agenda_html = "".join(f'<div class="inv-item">· {a}</div>' for a in d.agenda)
+    agenda_html = "".join(f'<div class="inv-item">· {escape(a)}</div>' for a in d.agenda)
     st.markdown(f'<div class="inv-card">{agenda_html}</div>', unsafe_allow_html=True)
 
     # Discussion
     st.markdown('<div class="section-heading">Discussion Points</div>', unsafe_allow_html=True)
-    disc_html = "".join(f'<div class="inv-item">• {dp}</div>' for dp in d.discussion_points)
+    disc_html = "".join(f'<div class="inv-item">• {escape(dp)}</div>' for dp in d.discussion_points)
     st.markdown(f'<div class="inv-card">{disc_html}</div>', unsafe_allow_html=True)
 
     # Decisions
     st.markdown('<div class="section-heading">Decisions Made</div>', unsafe_allow_html=True)
-    dec_html = "".join(f'<div class="inv-item">✓ {dec}</div>' for dec in d.decisions)
+    dec_html = "".join(f'<div class="inv-item">✓ {escape(dec)}</div>' for dec in d.decisions)
     st.markdown(f'<div class="inv-card">{dec_html}</div>', unsafe_allow_html=True)
 
     # Action Items
     st.markdown('<div class="section-heading">Action Items</div>', unsafe_allow_html=True)
     action_html = "".join(
-        f'<div class="action-row"><div class="action-dot"></div><div><div class="action-task">{ai.task}</div><div class="action-assignee">→ {ai.assignee}</div></div></div>'
+        f'<div class="action-row"><div class="action-dot"></div><div><div class="action-task">{escape(ai.task)}</div><div class="action-assignee">→ {escape(ai.assignee)}</div></div></div>'
         for ai in d.action_items
     )
     st.markdown(f'<div class="inv-card">{action_html}</div>', unsafe_allow_html=True)
 
     # Follow-ups
     st.markdown('<div class="section-heading">Follow-ups</div>', unsafe_allow_html=True)
-    fu_html = "".join(f'<div class="inv-item">🔄 {fu}</div>' for fu in d.follow_ups)
+    fu_html = "".join(f'<div class="inv-item">🔄 {escape(fu)}</div>' for fu in d.follow_ups)
     st.markdown(f'<div class="inv-card">{fu_html}</div>', unsafe_allow_html=True)
 
     # Download + Email
